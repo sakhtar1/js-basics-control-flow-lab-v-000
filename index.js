@@ -1,5 +1,6 @@
 // Write your code in this file!
 function scuberGreetingForFeet(someValue) {
+  let message
   if (someValue <= 400) {
     message = 'This one is on me!'
   } else if (someValue > 2000 < 2500) {
@@ -7,6 +8,7 @@ function scuberGreetingForFeet(someValue) {
   } else (someValue > 2500){
     message = 'No can do.'
   }
+  return message
 }
 
 function ternaryCheckCity(city) {
