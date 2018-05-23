@@ -11,14 +11,11 @@ function scuberGreetingForFeet(someValue) {
 }
 
 function ternaryCheckCity(city) {
-  var city = false;
-  if (city === true) {
-    var cityValue = "NYC"
-    console.log("Ok, sounds good.");
+  if (city === "NYC") {
+    return 'Ok, sounds good.';
   } else {
-    console.log("No go.");
+    return 'No go.';
   }
-  return message
 }
 
 function switchOnCharmFromTip(tip) {
