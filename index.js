@@ -14,11 +14,12 @@ function scuberGreetingForFeet(someValue) {
 }
 
 function ternaryCheckCity(city) {
-  let message
-  if (city === "NYC") {
-    message = "Ok, sounds good.";
+  var city = false;
+  if (city === true) {
+    var cityValue = "NYC"
+    console.log("Ok, sounds good.");
   } else {
-    message = "No go.";
+    console.log("No go.");
   }
   return message
 }
