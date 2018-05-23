@@ -7,10 +7,14 @@ function scuberGreetingForFeet(someValue) {
   } else (someValue > 2500){
     message = 'No can do.'
   }
-  }
   return message
 }
 
-function ternaryCheckCity(someValue) {
-
+function ternaryCheckCity(cityValue) {
+  if (cityValue === "NYC") {
+    message = "Ok, sounds good."
+  } else {
+    message = "No go."
+  }
+  return message
 }
