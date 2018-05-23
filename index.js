@@ -8,4 +8,5 @@ function scuberGreetingForFeet(someValue) {
     message = 'No can do.'
   }
   }
+  return message
 }
